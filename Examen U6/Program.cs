@@ -8,6 +8,7 @@ namespace Examen_U6
 {
     class Program
     {
+        //Bedoy Alvarez Jonathan 21211917
         //Clase de inventarios de amazon
         class InventariosAmazon
         {
@@ -40,7 +41,7 @@ namespace Examen_U6
                 finally
                 {
                     Console.Clear();
-                    Console.WriteLine("El roducto fue agregado en el inventario");
+                    Console.WriteLine("El producto fue agregado en el inventario");
                     Console.Write("\n Presione Enter para regresar ");
                     sw.Close();
                     Console.ReadKey();
@@ -66,9 +67,10 @@ namespace Examen_U6
             {
                 Console.Clear();
                 StreamWriter sw = new StreamWriter("Productos.txt", false);
-                Console.WriteLine("Inventario limpio");
+                Console.WriteLine("El inventario esta limpio");
                 Console.WriteLine("Presione Enter para regresar ");
                 Console.ReadKey();
+                Console.Clear();
             }
     }
         static void Main(string[] args)
@@ -109,7 +111,7 @@ namespace Examen_U6
                         break;
                 }
             }
-            while (opcion != 3);
+            while (opcion != 4);
 
         }
     }
