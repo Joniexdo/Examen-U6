@@ -1,0 +1,13 @@
+Nombre del producto: Celular
+Descripcion: Samsung
+Precio: $200.00
+Cantidad en Stock: 300
+Nombre del producto: cel
+Descripcion: sam
+Precio: $300.00
+Cantidad en Stock: 200
+
+Nombre del producto: cel
+Descripcion: sa
+Precio: $300.00
+Cantidad en Stock: 200
